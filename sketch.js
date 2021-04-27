@@ -69,7 +69,7 @@ function displayObjects() {
         divisions.push(new Division(k, height - divisionHeight / 1.5, 15, divisionHeight));
     }
     
-    if (frameCount % 60 === 0){
+    if (World.frameCount % 100 === 0){
         particles.push(new Particle(random(20, 460), 10));
     }
 }
